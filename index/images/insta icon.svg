@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 26.458333 26.458334"
+   version="1.1"
+   id="svg1058"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="insta icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1060"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="4.0718557"
+     inkscape:cx="67.659568"
+     inkscape:cy="67.168391"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1055" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path2164"
+       style="fill:#ffffff;fill-opacity:0.909804;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 37.110562,-1.3801345 c -2.846522,0 -5.137999,2.29150086 -5.137999,5.1378994 V 19.811868 c 0,2.846374 2.291477,5.137899 5.137999,5.137899 h 16.294995 c 2.846547,0 5.137999,-2.291525 5.137999,-5.137899 V 3.7577649 c 0,-2.84639854 -2.291452,-5.1378994 -5.137999,-5.1378994 z M 38.299275,2.071207 A 2.4134955,2.4134955 0 0 1 40.712678,4.4846827 2.4134955,2.4134955 0 0 1 38.299275,6.8979863 2.4134955,2.4134955 0 0 1 35.885897,4.4846827 2.4134955,2.4134955 0 0 1 38.299275,2.071207 Z m 12.308939,6.128608 c 0.272107,1.481e-4 0.515984,0.026404 0.771434,0.064405 0.389296,0.052808 0.80529,0.1204208 1.237819,0.3113181 0.432503,0.190502 0.881712,0.501943 1.414032,1.118582 0.532295,0.6163179 1.147034,1.5376119 1.293908,2.2380759 4.9e-5,1.73e-4 -5e-5,4.94e-4 0,8.39e-4 h 0.0099 v 0.04935 c 0.03479,0.193216 0.03356,0.369801 0,0.530469 v 9.177527 H 51.182711 V 12.916066 C 50.9853,12.644453 50.82589,12.395616 50.675142,12.209507 50.49155,11.98273 50.319753,11.848861 50.078146,11.759779 c -0.241582,-0.08809 -0.553591,-0.132266 -0.850349,-0.122148 -0.296759,0.01481 -0.577675,0.06959 -0.846821,0.145837 -0.269145,0.07625 -0.526496,0.1678 -0.734641,0.339301 -0.208022,0.171254 -0.366815,0.422732 -0.489161,0.646152 -0.120174,0.219126 -0.204074,0.409159 -0.282273,0.55744 v 8.415865 H 42.722226 V 8.4549691 h 4.152645 v 1.527939 c 0.101667,-0.129058 0.207529,-0.257671 0.318202,-0.377796 0.406667,-0.441214 0.856321,-0.769139 1.375463,-0.994237 0.519143,-0.2248025 1.10733,-0.3458897 1.583214,-0.3891721 0.118941,-0.014806 0.231218,-0.014806 0.338388,-0.022209 0.04022,-0.00101 0.07946,0 0.118447,0 z M 36.28563,8.4548211 h 4.152646 V 21.742081 H 36.28563 Z" />
+    <g
+       id="g1275"
+       transform="matrix(1.0638815,0,0,1.0638815,167.30861,-109.76238)">
+      <rect
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:2.465;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect67"
+         width="22.352625"
+         height="22.352625"
+         x="-155.94855"
+         y="104.48553"
+         ry="5.7181163" />
+      <circle
+         style="fill:none;stroke:#ffffff;stroke-width:2.316;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1170"
+         cx="-144.54031"
+         cy="115.95908"
+         r="5.272891" />
+      <circle
+         style="fill:#ffffff;stroke:#ffffff;stroke-width:0.443907;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="circle1252"
+         cx="-138.31169"
+         cy="109.20131"
+         r="1.0106525" />
+    </g>
+  </g>
+</svg>
