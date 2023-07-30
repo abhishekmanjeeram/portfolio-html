@@ -1,66 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="" />
-    <link rel="stylesheet" href="index.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Portfolio website"
-    />
-    
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    
-    <title>Portfolio</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="bootstrap" href="bootstrap.css">
+    <title>Portfolio | abhishekmanjeeram</title>
   </head>
   <body>
     <div class="home">
       <div class="header">
         <div class="logo">
-          <ul>LOGO</ul>
+          <h3>LOGO</h3>
         </div>
+        <ul class="nav-links">
+          <input type="checkbox" id="toggle">
+          <label for="toggle" class="hamburger">&#9776</label>
+        </ul>
         <div class="menu">
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Contact</li>
+            <a href="#home"><li>Home</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#skills"><li>Skills</li></a>
+            <a href="#contact"><li>Contact</li></a>
           </ul>
         </div>
       </div>
-      <div class="home_content">
-        <div class="writeup1">
-          <div class="welcome">
-            <h4>Welcome to my Portfolio</h4>
-          </div>
-          <div class="me">
-            <div class="hello">
-              <h3>Hello, It's Me!</h3>
-            </div>
-            <div class="name">
-              <h1>Abhishek S</h1>
-            </div>
-            <div class="job">
-              <h3>And I'm a <span>Frontend Developer.</span></h3>
-            </div>
-          </div>
-          <div class="start">
-            <button>Let's get started!</button>
-          </div>
+      <div class="home_content" id="home">
+        <div class="welcome">
+          <h4>Welcome to my Portfolio</h4>
         </div>
-        <div class="home_photo">
-          <div class="img_photo">
-            <img src="" alt="">
+        <div class="content">
+          <div class="writeup1">
+            <div class="me">
+                <p class="p1">Hello, It's Me!</p>
+                <p class="p2">Abhishek S</p>
+                <p class="p3">And I'm a <span>Frontend Developer.</span></p>
+            </div>
+            <div class="start">
+              <button><a href="#skills">Let's get started!</a></button>
+            </div>
+          </div>
+          <div class="home_photo">
+            <div class="img_photo">
+              <img class="photo" src="images/Abhishek.jpg" alt="photo">
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="about">
+    <div class="about" id="about">
       <div class="about_photo">
         <div class="img_photo">
-          <img src="" alt="">
+          <img class="photo" src="images/Abhishek.jpg" alt="photo">
         </div>
       </div>
       <div class="writeup2">
@@ -73,7 +66,7 @@
       </div>
     </div>
 
-    <div class="skills">
+    <div class="skills" id="skills">
       <div class="skill_title">
         <h2>Skills</h2>
       </div>
@@ -171,27 +164,125 @@
     </div>
 
     <div class="interest">
-
+      <div class="interest_title">
+        <h3>My Interests</h3>
+      </div>
+      <div class="int_para">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vitae.</p>
+      </div>
+      <div class="gallery1">
+        
+        <div class="interest-container">
+          <div class="interest_box">
+        
+            <div class="interest_item">
+              <div class="interest-item_link">
+                <div class="interest-item_bg"></div>
+        
+                <div class="interest-item_title">
+                  Graphic design
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="interest-container">
+          <div class="interest_box">
+        
+            <div class="interest_item">
+              <div class="interest-item_link">
+                <div class="interest-item_bg"></div>
+        
+                <div class="interest-item_title">
+                  Web design
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="interest-container">
+          <div class="interest_box">
+        
+            <div class="interest_item">
+              <div class="interest-item_link">
+                <div class="interest-item_bg"></div>
+        
+                <div class="interest-item_title">
+                  UI/UX
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="interest-container">
+          <div class="interest_box">
+        
+            <div class="interest_item">
+              <div class="interest-item_link">
+                <div class="interest-item_bg"></div>
+        
+                <div class="interest-item_title"> 
+                  Digital Art
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="interest-container">
+          <div class="interest_box">
+        
+            <div class="interest_item">
+              <div class="interest-item_link">
+                <div class="interest-item_bg"></div>
+        
+                <div class="interest-item_title">
+                  PCB Design
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+        <div class="interest-container">
+          <div class="interest_box">
+        
+            <div class="interest_item">
+              <div class="interest-item_link">
+                <div class="interest-item_bg"></div>
+        
+                <div class="interest-item_title">
+                  EV Technology
+                </div>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+        
     </div>
-
+    <!--
     <div class="works">
-
+     -->
     </div>
 
-    <div class="contact">
+    <div class="contact" id="contact">
       <div class="writeup3">
         <div class="contact_title">
           <h2>Contact</h2>
         </div>
         <div class="form">
-          <form action="post">
+          <form action="mailto:abhishekmanjeeram@gmail.com">
             <div class="formname">
               <input type="text" name="firstname" class="ftname" placeholder="First Name" required>
               <input type="text" name="lastname" class="ltname" placeholder="Last Name" required>
             </div>
             <div class="mailname">
               <input type="email" name="email" class="mail" placeholder="Email" required>
-              <input type="tel" name="number" class="phno" placeholder="Phone Number" required>
+              <input type="tel" name="number" class="phno" placeholder="Phone Number" >
             </div>
             <textarea  class="text" placeholder="Type here" required></textarea>
             <input type="submit" class="submit" value="Submit">
