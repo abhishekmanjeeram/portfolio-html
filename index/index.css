@@ -78,7 +78,6 @@ input[type = checkbox]
 }
 .home_content
 {
-  /*background-color: grey;  /* blue : #0ca1b2ff  */
   margin: 30px;
   display: flex;
   flex-direction: column;
@@ -86,7 +85,6 @@ input[type = checkbox]
 }
 .content
 {
-  /*height: 70vh;*/
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -123,11 +121,7 @@ input[type = checkbox]
   animation-timing-function: steps(30,end);
   animation-fill-mode: forwards;
 }
-@keyframes typing
-{
-  from{width: 0}
-  to{width: 100%}
-}
+
 .me
 {
   margin: 10px;
@@ -155,11 +149,59 @@ input[type = checkbox]
 {
   font-size: 36px;
   font-weight: bolder; 
+  display: inline-block;
+  
 }
 .p3 span{
   color: #0ca1b2ff;
 }
-
+.fixed
+{
+  display: inline;
+  font-size: 32px;
+  font-weight: bolder;
+}
+.animated
+{
+  display: inline;
+  font-size: 32px;
+  font-weight: bolder;
+}
+.animated span
+{
+  position: relative;
+  color:#0ca1b2ff;
+}
+.animated span:after
+{
+  content: "";
+  position: absolute;
+  border-left: 2px solid #0ca1b2ff;
+  left: 0;
+  height: 100%;
+  right: -20px;
+  background-color: #141414ff;
+  animation: 3s textType;
+  transition-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(40);
+  animation-fill-mode: backwards;
+}
+@keyframes textType
+{
+  0%
+  {
+    left: 0;
+  }
+  50%
+  {
+    left: 100%;
+  }
+  100%
+  {
+    left: 0;
+  }
+}
 
 .start button
 {
@@ -640,6 +682,19 @@ footer h4
     display: inline-block;
     transition: 0.3s ease;
   }
+  .menu ul li
+  {
+    display: block;
+    line-height: 30px;
+  }
+  #toggle:checked~ ul
+  {
+    left: 0;
+  }
+  .menu  a:hover,a:active
+  {
+    color: #0ca1b2ff;
+  }
   .menu li+li
   {
     margin-top: 12px;
@@ -669,6 +724,14 @@ footer h4
     font-size: 30px;
   }
   .p3
+  {
+    font-size: 22px;
+  }
+  .fixed
+  {
+    font-size: 22px;
+  }
+  .animated
   {
     font-size: 22px;
   }
@@ -709,6 +772,8 @@ footer h4
   }
   .skill_content p{
     font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   .skillbox
   {
