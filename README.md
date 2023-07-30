@@ -14,14 +14,15 @@ This is my personal portfolio project showcasing my skills, projects, and experi
 
 ## Features
 
-    Responsive design for optimal viewing on various devices.
-    Smooth animations to enhance user interaction.
-    CSS effects to add a touch of creativity and style.
-    Dedicated sections for presenting projects, skills, and experiences.
+    * Responsive design for optimal viewing on various devices.
+    * Smooth animations to enhance user interaction.
+    * CSS effects to add a touch of creativity and style.
+    * Dedicated sections for presenting projects, skills, and experiences.
 
 ## Demo
 
 Check out the live demo of the portfolio here.
+
 https://abhishekmanjeeram.github.io/portfolio-html/index/index.html
 
 
