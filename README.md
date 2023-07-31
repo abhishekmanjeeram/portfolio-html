@@ -24,6 +24,7 @@ This is my personal portfolio project showcasing my skills, projects, and experi
 Check out the live demo of the portfolio here.
 
 https://abhishekmanjeeram.github.io/portfolio-html/index/index.html
+https://abhishekmanjeeram-portfolio.netlify.app/
 
 
 ## Usage
