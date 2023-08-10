@@ -170,7 +170,7 @@ input[type = checkbox]
 .animated span
 {
   position: relative;
-  color:#0ca1b2ff;
+  color:#0ca1b2ff; /*#091719ff*/
 }
 .animated span:after
 {
@@ -180,7 +180,7 @@ input[type = checkbox]
   left: 0;
   height: 100%;
   right: -20px;
-  background-color: #141414ff;
+  background-color: #091719ff;
   animation: 3s textType;
   transition-delay: 2s;
   animation-iteration-count: infinite;
@@ -323,7 +323,7 @@ input[type = checkbox]
   display: grid;
   max-width: 1200px;
   margin:  0 auto;
-  gap: 5rem;
+  gap: 2rem; /*5rem*/
 }
 .skill1,.skill2, .skill3, .skill4, .skill5, .skill6
 {
