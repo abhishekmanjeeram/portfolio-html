@@ -10,7 +10,7 @@ This is my personal portfolio project showcasing my skills, projects, and experi
     * Demo
     * Usage
     * Contributing
-    * License
+
 
 ## Features
 
